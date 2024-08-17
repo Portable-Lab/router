@@ -30,6 +30,7 @@ jobs:
             mega-linter.log
 
   build:
+    needs: linter
     runs-on: ubuntu-latest
     steps:
       - name: 🛎️ Checkout
