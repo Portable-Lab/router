@@ -3,11 +3,11 @@ package tw.yukina.portable_lab.router;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SuppressWarnings("checkstyle:hideutilityclassconstructor")
 @SpringBootApplication
 public class RouterApplication {
-
     /**
-     * Main method to run the application
+     * Main method to run the application.
      *
      * @param args
      * @return
