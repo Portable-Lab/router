@@ -6,8 +6,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class RouterApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(RouterApplication.class, args);
-	}
-
+    /**
+     * Main method to run the application
+     *
+     * @param args
+     * @return
+     */
+    public static void main(final String[] args) {
+        SpringApplication.run(RouterApplication.class, args);
+    }
 }
