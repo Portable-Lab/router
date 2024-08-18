@@ -50,8 +50,5 @@ jobs:
       - name: 🐘 Setup Gradle
         uses: gradle/gradle-build-action@v3
 
-      - name: 🚀 Build
+      - name: 🚀 Compile and Test
         run: ./gradlew build --no-daemon
-
-      - name: 🧪 Test
-        run: ./gradlew test --no-daemon
